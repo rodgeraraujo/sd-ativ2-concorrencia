@@ -1,0 +1,12 @@
+CREATE TABLE Usuario (
+  id INT NOT NULL PRIMARY KEY,
+  nome VARCHAR NOT NULL,
+  updated BOOLEAN DEFAULT FALSE,
+  deleted BOOLEAN DEFAULT FALSE
+);
+
+CREATE TABLE Cotrole(
+    id INT NOT NULL PRIMARY KEY,
+    indexNome VARCHAR NOT NULL,
+    indexValue INT NOT NULL
+);
